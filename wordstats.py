@@ -7,9 +7,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendi
 def is_vowel(letter):
     assert(len(letter) == 1)
     return letter.lower() in ['a', 'e', 'i', 'o', 'u', 'y']
+"""
+    maintenant modifier votre fichier en y ajoutant le code nécessaire pour
+afficher le nombre de caractères
+"""
 
 if __name__ == "__main__":
 
     words = full_text.split()
 
-
+    print("Word count:", len(words))
